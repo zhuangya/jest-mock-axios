@@ -15,6 +15,15 @@ type SpyFn = AnyFunction & { mockClear: AnyFunction }
 
 type AxiosFn = (...args: any[]) => SpyFn
 
+type Interceptors = {
+  request: {
+    use: AnyFunction
+  }
+  response: {
+    use: AnyFunction
+  }
+}
+
 type AxiosAPI = {
   // mocking Axios methods
   get?: SpyFn
@@ -22,6 +31,7 @@ type AxiosAPI = {
   put?: SpyFn
   delete?: SpyFn
   create?: SpyFn
+  interceptors?: Interceptors
 }
 
 type AxiosMockAPI = {
