@@ -42,6 +42,15 @@ MockAxios.put = jest.fn(_newReq)
 MockAxios.delete = jest.fn(_newReq)
 MockAxios.create = jest.fn(() => MockAxios)
 
+MockAxios.interceptors = {
+  request: {
+    use: jest.fn
+  },
+  response: {
+    use: jest.fn
+  }
+}
+
 MockAxios.popPromise = (promise?: SyncPromise) => {
   if (promise) {
     // remove the promise from pending queue
