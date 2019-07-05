@@ -2,7 +2,7 @@ Badges:
 
 
 [![codecov](https://codecov.io/gh/zhuangya/jest-mock-axios/branch/master/graph/badge.svg)](https://codecov.io/gh/zhuangya/jest-mock-axios)
-[![Build Status](https://travis-ci.org/zhuangya/jest-mock-axios.svg?branch=master)](https://travis-ci.org/zhuangya/jest-mock-axios)
+[![Build Status](https://travis-ci.org/zhuangya/jest-mock-axios.svg?branch=master)](https://travis-ci.org/zhuangya/jest-mock-axios) [![Greenkeeper badge](https://badges.greenkeeper.io/zhuangya/jest-mock-axios.svg)](https://greenkeeper.io/)
 
 <hr />
 
